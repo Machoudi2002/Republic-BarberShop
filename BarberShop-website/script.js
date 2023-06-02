@@ -116,6 +116,9 @@ window.addEventListener("resize", () => {
 
 const info = document.querySelectorAll("input")
 
+let form = document.querySelector('form');
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);
 
 const sendMail = () => {
   let templateParams = {
