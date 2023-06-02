@@ -280,13 +280,13 @@
             <div class="form-area">
                 <h1>BOOK A SEAT</h1>
                 <p>Fill out this form and get your seat</p>
-                <form>
+                <form onsubmit="sendMail()">
                     <input type="text" placeholder="Full Name" required>
                     <input type="email" placeholder="Email" required>
                     <input type="date" required>
                     <input type="time" required>
                     <input type="number" placeholder="Number of people" required>
-                    <input onclick='sendMail()' type="submit" value="Book Now">
+                    <input type="submit" value="Book Now">
     
     
                 </form>
