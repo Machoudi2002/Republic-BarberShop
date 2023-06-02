@@ -1,6 +1,6 @@
 
 
-![Barbershop Website](Images/REPUBLIC.png)
+![Barbershop Website](BarberShop-website/Images/REPUBLIC.png)
 # Barbershop Website
 
 This is a responsive barbershop website showcasing various services offered, team members, testimonials, and a contact form. The website is built using HTML, CSS, and JavaScript, with the addition of Swipe.js for image carousel functionality and Email.js for sending emails from the contact form.
